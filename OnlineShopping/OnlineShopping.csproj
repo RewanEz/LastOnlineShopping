@@ -66,7 +66,52 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Master Pages\AnonymousMaster.Master" />
+    <Content Include="Master Pages\fonts\fontawesome-webfont.eot" />
+    <Content Include="Master Pages\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Master Pages\fonts\fontawesome-webfont.woff" />
+    <Content Include="Master Pages\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Master Pages\fonts\FontAwesome.otf" />
+    <Content Include="Master Pages\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Master Pages\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Master Pages\UserMaster.Master" />
     <None Include="packages.config" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\AdminMaster.Master" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\fontawesome-webfont.eot" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\fontawesome-webfont.woff" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\FontAwesome.otf" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Presentation Layers\Anonymous\fonts\fontawesome-webfont.eot" />
+    <Content Include="Presentation Layers\Anonymous\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Presentation Layers\Anonymous\fonts\fontawesome-webfont.woff" />
+    <Content Include="Presentation Layers\Anonymous\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Presentation Layers\Anonymous\fonts\FontAwesome.otf" />
+    <Content Include="Presentation Layers\Anonymous\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Presentation Layers\Anonymous\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Presentation Layers\Test\fonts\fontawesome-webfont.eot" />
+    <Content Include="Presentation Layers\Test\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Presentation Layers\Test\fonts\fontawesome-webfont.woff" />
+    <Content Include="Presentation Layers\Test\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Presentation Layers\Test\fonts\FontAwesome.otf" />
+    <Content Include="Presentation Layers\Test\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Presentation Layers\Test\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\fontawesome-webfont.eot" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\fontawesome-webfont.woff" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\FontAwesome.otf" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="User Controls\fonts\fontawesome-webfont.eot" />
+    <Content Include="User Controls\fonts\fontawesome-webfont.ttf" />
+    <Content Include="User Controls\fonts\fontawesome-webfont.woff" />
+    <Content Include="User Controls\fonts\fontawesome-webfont.woff2" />
+    <Content Include="User Controls\fonts\FontAwesome.otf" />
+    <Content Include="User Controls\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="User Controls\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +120,870 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Master Pages\css\bootstrap.css" />
+    <Content Include="Master Pages\css\fasthover.css" />
+    <Content Include="Master Pages\css\flexslider.css" />
+    <Content Include="Master Pages\css\font-awesome.css" />
+    <Content Include="Master Pages\css\jquery.countdown.css" />
+    <Content Include="Master Pages\css\popuo-box.css" />
+    <Content Include="Master Pages\css\style.css" />
+    <Content Include="Master Pages\fonts\fontawesome-webfont.svg" />
+    <Content Include="Master Pages\images\1.jpg" />
+    <Content Include="Master Pages\images\10.jpg" />
+    <Content Include="Master Pages\images\11.jpg" />
+    <Content Include="Master Pages\images\12.jpg" />
+    <Content Include="Master Pages\images\13.jpg" />
+    <Content Include="Master Pages\images\14.jpg" />
+    <Content Include="Master Pages\images\15.jpg" />
+    <Content Include="Master Pages\images\16.jpg" />
+    <Content Include="Master Pages\images\17.jpg" />
+    <Content Include="Master Pages\images\18.jpg" />
+    <Content Include="Master Pages\images\19.jpg" />
+    <Content Include="Master Pages\images\2.jpg" />
+    <Content Include="Master Pages\images\20.jpg" />
+    <Content Include="Master Pages\images\21.jpg" />
+    <Content Include="Master Pages\images\22.jpg" />
+    <Content Include="Master Pages\images\23.jpg" />
+    <Content Include="Master Pages\images\24.jpg" />
+    <Content Include="Master Pages\images\25.jpg" />
+    <Content Include="Master Pages\images\26.jpg" />
+    <Content Include="Master Pages\images\27.jpg" />
+    <Content Include="Master Pages\images\28.jpg" />
+    <Content Include="Master Pages\images\29.jpg" />
+    <Content Include="Master Pages\images\3.jpg" />
+    <Content Include="Master Pages\images\30.jpg" />
+    <Content Include="Master Pages\images\31.jpg" />
+    <Content Include="Master Pages\images\32.jpg" />
+    <Content Include="Master Pages\images\33.jpg" />
+    <Content Include="Master Pages\images\34.jpg" />
+    <Content Include="Master Pages\images\35.jpg" />
+    <Content Include="Master Pages\images\36.jpg" />
+    <Content Include="Master Pages\images\37.jpg" />
+    <Content Include="Master Pages\images\38.jpg" />
+    <Content Include="Master Pages\images\39.jpg" />
+    <Content Include="Master Pages\images\4.jpg" />
+    <Content Include="Master Pages\images\40.jpg" />
+    <Content Include="Master Pages\images\41.jpg" />
+    <Content Include="Master Pages\images\44.jpg" />
+    <Content Include="Master Pages\images\45.jpg" />
+    <Content Include="Master Pages\images\46.jpg" />
+    <Content Include="Master Pages\images\47.jpg" />
+    <Content Include="Master Pages\images\48.jpg" />
+    <Content Include="Master Pages\images\49.jpg" />
+    <Content Include="Master Pages\images\5.jpg" />
+    <Content Include="Master Pages\images\50.jpg" />
+    <Content Include="Master Pages\images\51.jpg" />
+    <Content Include="Master Pages\images\52.jpg" />
+    <Content Include="Master Pages\images\6.jpg" />
+    <Content Include="Master Pages\images\7.jpg" />
+    <Content Include="Master Pages\images\8.jpg" />
+    <Content Include="Master Pages\images\9.jpg" />
+    <Content Include="Master Pages\images\a.jpg" />
+    <Content Include="Master Pages\images\arrow.png" />
+    <Content Include="Master Pages\images\b.jpg" />
+    <Content Include="Master Pages\images\b1.jpg" />
+    <Content Include="Master Pages\images\bg1.jpg" />
+    <Content Include="Master Pages\images\bg2.jpg" />
+    <Content Include="Master Pages\images\bg3.jpg" />
+    <Content Include="Master Pages\images\c.jpg" />
+    <Content Include="Master Pages\images\check.png" />
+    <Content Include="Master Pages\images\close.png" />
+    <Content Include="Master Pages\images\img-sp.png" />
+    <Content Include="Master Pages\images\left-arrow.png" />
+    <Content Include="Master Pages\images\p1.jpg" />
+    <Content Include="Master Pages\images\p10.jpg" />
+    <Content Include="Master Pages\images\p11.jpg" />
+    <Content Include="Master Pages\images\p12.jpg" />
+    <Content Include="Master Pages\images\p13.jpg" />
+    <Content Include="Master Pages\images\p2.jpg" />
+    <Content Include="Master Pages\images\p3.jpg" />
+    <Content Include="Master Pages\images\p4.jpg" />
+    <Content Include="Master Pages\images\p5.jpg" />
+    <Content Include="Master Pages\images\p6.jpg" />
+    <Content Include="Master Pages\images\P7.jpg" />
+    <Content Include="Master Pages\images\p8.jpg" />
+    <Content Include="Master Pages\images\p9.jpg" />
+    <Content Include="Master Pages\images\right-arrow.png" />
+    <Content Include="Master Pages\images\star-.png" />
+    <Content Include="Master Pages\images\star.png" />
+    <Content Include="Master Pages\images\t1.png" />
+    <Content Include="Master Pages\images\t2.png" />
+    <Content Include="Master Pages\images\t3.png" />
+    <Content Include="Master Pages\images\t4.png" />
+    <Content Include="Master Pages\images\t5.png" />
+    <Content Include="Master Pages\images\t6.png" />
+    <Content Include="Master Pages\images\t7.png" />
+    <Content Include="Master Pages\images\tb1.jpg" />
+    <Content Include="Master Pages\images\tb2.jpg" />
+    <Content Include="Master Pages\images\tb3.jpg" />
+    <Content Include="Master Pages\images\tb4.jpg" />
+    <Content Include="Master Pages\images\tb5.jpg" />
+    <Content Include="Master Pages\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Master Pages\js\easyResponsiveTabs.js" />
+    <Content Include="Master Pages\js\imagezoom.js" />
+    <Content Include="Master Pages\js\jquery.countdown.js" />
+    <Content Include="Master Pages\js\jquery.flexisel.js" />
+    <Content Include="Master Pages\js\jquery.flexslider.js" />
+    <Content Include="Master Pages\js\jquery.magnific-popup.js" />
+    <Content Include="Master Pages\js\jquery.min.js" />
+    <Content Include="Master Pages\js\jquery.wmuSlider.js" />
+    <Content Include="Master Pages\js\minicart.js" />
+    <Content Include="Master Pages\js\script.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\ApprovedOrders.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\Categories.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\bootstrap.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\fasthover.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\flexslider.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\font-awesome.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\jquery.countdown.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\popuo-box.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\css\style.css" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\fonts\fontawesome-webfont.svg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\Home.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\1.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\10.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\11.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\12.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\13.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\14.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\15.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\16.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\17.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\18.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\19.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\2.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\20.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\21.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\22.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\23.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\24.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\25.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\26.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\27.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\28.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\29.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\3.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\30.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\31.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\32.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\33.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\34.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\35.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\36.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\37.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\38.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\39.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\4.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\40.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\41.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\44.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\45.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\46.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\47.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\48.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\49.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\5.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\50.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\51.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\52.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\6.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\7.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\8.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\9.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\a.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\arrow.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\b.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\b1.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\bg1.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\bg2.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\bg3.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\c.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\check.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\close.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\img-sp.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\left-arrow.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p1.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p10.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p11.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p12.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p13.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p2.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p3.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p4.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p5.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p6.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\P7.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p8.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\p9.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\right-arrow.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\star-.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\star.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t1.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t2.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t3.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t4.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t5.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t6.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\t7.png" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\tb1.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\tb2.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\tb3.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\tb4.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\images\tb5.jpg" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\easyResponsiveTabs.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\imagezoom.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.countdown.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.flexisel.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.flexslider.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.magnific-popup.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.min.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\jquery.wmuSlider.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\minicart.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\js\script.js" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\NewProduct.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\PendedOrders.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\PendedUsers.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\Products.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\RegisteredUsers.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\SearchResult.aspx" />
+    <Content Include="Presentation Layers\Admin\AdminMasterPage\SucessIcon.png" />
+    <Content Include="Presentation Layers\Anonymous\AnonymouseHome.aspx" />
+    <Content Include="Presentation Layers\Anonymous\css\bootstrap.css" />
+    <Content Include="Presentation Layers\Anonymous\css\fasthover.css" />
+    <Content Include="Presentation Layers\Anonymous\css\flexslider.css" />
+    <Content Include="Presentation Layers\Anonymous\css\font-awesome.css" />
+    <Content Include="Presentation Layers\Anonymous\css\jquery.countdown.css" />
+    <Content Include="Presentation Layers\Anonymous\css\popuo-box.css" />
+    <Content Include="Presentation Layers\Anonymous\css\style.css" />
+    <Content Include="Presentation Layers\Anonymous\fonts\fontawesome-webfont.svg" />
+    <Content Include="Presentation Layers\Anonymous\images\1.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\10.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\11.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\12.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\13.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\14.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\15.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\16.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\17.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\18.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\19.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\2.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\20.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\21.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\22.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\23.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\24.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\25.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\26.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\27.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\28.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\29.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\3.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\30.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\31.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\32.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\33.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\34.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\35.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\36.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\37.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\38.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\39.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\4.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\40.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\41.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\44.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\45.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\46.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\47.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\48.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\49.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\5.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\50.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\51.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\52.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\6.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\7.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\8.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\9.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\a.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\arrow.png" />
+    <Content Include="Presentation Layers\Anonymous\images\b.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\b1.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\bg1.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\bg2.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\bg3.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\c.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\check.png" />
+    <Content Include="Presentation Layers\Anonymous\images\close.png" />
+    <Content Include="Presentation Layers\Anonymous\images\img-sp.png" />
+    <Content Include="Presentation Layers\Anonymous\images\left-arrow.png" />
+    <Content Include="Presentation Layers\Anonymous\images\p1.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p10.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p11.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p12.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p13.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p2.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p3.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p4.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p5.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p6.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\P7.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p8.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\p9.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\right-arrow.png" />
+    <Content Include="Presentation Layers\Anonymous\images\star-.png" />
+    <Content Include="Presentation Layers\Anonymous\images\star.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t1.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t2.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t3.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t4.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t5.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t6.png" />
+    <Content Include="Presentation Layers\Anonymous\images\t7.png" />
+    <Content Include="Presentation Layers\Anonymous\images\tb1.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\tb2.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\tb3.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\tb4.jpg" />
+    <Content Include="Presentation Layers\Anonymous\images\tb5.jpg" />
+    <Content Include="Presentation Layers\Anonymous\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Presentation Layers\Anonymous\js\easyResponsiveTabs.js" />
+    <Content Include="Presentation Layers\Anonymous\js\imagezoom.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.countdown.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.flexisel.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.flexslider.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.magnific-popup.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.min.js" />
+    <Content Include="Presentation Layers\Anonymous\js\jquery.wmuSlider.js" />
+    <Content Include="Presentation Layers\Anonymous\js\minicart.js" />
+    <Content Include="Presentation Layers\Anonymous\js\script.js" />
+    <Content Include="Presentation Layers\Test\css\bootstrap.css" />
+    <Content Include="Presentation Layers\Test\css\fasthover.css" />
+    <Content Include="Presentation Layers\Test\css\flexslider.css" />
+    <Content Include="Presentation Layers\Test\css\font-awesome.css" />
+    <Content Include="Presentation Layers\Test\css\jquery.countdown.css" />
+    <Content Include="Presentation Layers\Test\css\popuo-box.css" />
+    <Content Include="Presentation Layers\Test\css\style.css" />
+    <Content Include="Presentation Layers\Test\fonts\fontawesome-webfont.svg" />
+    <Content Include="Presentation Layers\Test\images\1.jpg" />
+    <Content Include="Presentation Layers\Test\images\10.jpg" />
+    <Content Include="Presentation Layers\Test\images\11.jpg" />
+    <Content Include="Presentation Layers\Test\images\12.jpg" />
+    <Content Include="Presentation Layers\Test\images\13.jpg" />
+    <Content Include="Presentation Layers\Test\images\14.jpg" />
+    <Content Include="Presentation Layers\Test\images\15.jpg" />
+    <Content Include="Presentation Layers\Test\images\16.jpg" />
+    <Content Include="Presentation Layers\Test\images\17.jpg" />
+    <Content Include="Presentation Layers\Test\images\18.jpg" />
+    <Content Include="Presentation Layers\Test\images\19.jpg" />
+    <Content Include="Presentation Layers\Test\images\2.jpg" />
+    <Content Include="Presentation Layers\Test\images\20.jpg" />
+    <Content Include="Presentation Layers\Test\images\21.jpg" />
+    <Content Include="Presentation Layers\Test\images\22.jpg" />
+    <Content Include="Presentation Layers\Test\images\23.jpg" />
+    <Content Include="Presentation Layers\Test\images\24.jpg" />
+    <Content Include="Presentation Layers\Test\images\25.jpg" />
+    <Content Include="Presentation Layers\Test\images\26.jpg" />
+    <Content Include="Presentation Layers\Test\images\27.jpg" />
+    <Content Include="Presentation Layers\Test\images\28.jpg" />
+    <Content Include="Presentation Layers\Test\images\29.jpg" />
+    <Content Include="Presentation Layers\Test\images\3.jpg" />
+    <Content Include="Presentation Layers\Test\images\30.jpg" />
+    <Content Include="Presentation Layers\Test\images\31.jpg" />
+    <Content Include="Presentation Layers\Test\images\32.jpg" />
+    <Content Include="Presentation Layers\Test\images\33.jpg" />
+    <Content Include="Presentation Layers\Test\images\34.jpg" />
+    <Content Include="Presentation Layers\Test\images\35.jpg" />
+    <Content Include="Presentation Layers\Test\images\36.jpg" />
+    <Content Include="Presentation Layers\Test\images\37.jpg" />
+    <Content Include="Presentation Layers\Test\images\38.jpg" />
+    <Content Include="Presentation Layers\Test\images\39.jpg" />
+    <Content Include="Presentation Layers\Test\images\4.jpg" />
+    <Content Include="Presentation Layers\Test\images\40.jpg" />
+    <Content Include="Presentation Layers\Test\images\41.jpg" />
+    <Content Include="Presentation Layers\Test\images\44.jpg" />
+    <Content Include="Presentation Layers\Test\images\45.jpg" />
+    <Content Include="Presentation Layers\Test\images\46.jpg" />
+    <Content Include="Presentation Layers\Test\images\47.jpg" />
+    <Content Include="Presentation Layers\Test\images\48.jpg" />
+    <Content Include="Presentation Layers\Test\images\49.jpg" />
+    <Content Include="Presentation Layers\Test\images\5.jpg" />
+    <Content Include="Presentation Layers\Test\images\50.jpg" />
+    <Content Include="Presentation Layers\Test\images\51.jpg" />
+    <Content Include="Presentation Layers\Test\images\52.jpg" />
+    <Content Include="Presentation Layers\Test\images\6.jpg" />
+    <Content Include="Presentation Layers\Test\images\7.jpg" />
+    <Content Include="Presentation Layers\Test\images\8.jpg" />
+    <Content Include="Presentation Layers\Test\images\9.jpg" />
+    <Content Include="Presentation Layers\Test\images\a.jpg" />
+    <Content Include="Presentation Layers\Test\images\arrow.png" />
+    <Content Include="Presentation Layers\Test\images\b.jpg" />
+    <Content Include="Presentation Layers\Test\images\b1.jpg" />
+    <Content Include="Presentation Layers\Test\images\bg1.jpg" />
+    <Content Include="Presentation Layers\Test\images\bg2.jpg" />
+    <Content Include="Presentation Layers\Test\images\bg3.jpg" />
+    <Content Include="Presentation Layers\Test\images\c.jpg" />
+    <Content Include="Presentation Layers\Test\images\check.png" />
+    <Content Include="Presentation Layers\Test\images\close.png" />
+    <Content Include="Presentation Layers\Test\images\img-sp.png" />
+    <Content Include="Presentation Layers\Test\images\left-arrow.png" />
+    <Content Include="Presentation Layers\Test\images\p1.jpg" />
+    <Content Include="Presentation Layers\Test\images\p10.jpg" />
+    <Content Include="Presentation Layers\Test\images\p11.jpg" />
+    <Content Include="Presentation Layers\Test\images\p12.jpg" />
+    <Content Include="Presentation Layers\Test\images\p13.jpg" />
+    <Content Include="Presentation Layers\Test\images\p2.jpg" />
+    <Content Include="Presentation Layers\Test\images\p3.jpg" />
+    <Content Include="Presentation Layers\Test\images\p4.jpg" />
+    <Content Include="Presentation Layers\Test\images\p5.jpg" />
+    <Content Include="Presentation Layers\Test\images\p6.jpg" />
+    <Content Include="Presentation Layers\Test\images\P7.jpg" />
+    <Content Include="Presentation Layers\Test\images\p8.jpg" />
+    <Content Include="Presentation Layers\Test\images\p9.jpg" />
+    <Content Include="Presentation Layers\Test\images\right-arrow.png" />
+    <Content Include="Presentation Layers\Test\images\star-.png" />
+    <Content Include="Presentation Layers\Test\images\star.png" />
+    <Content Include="Presentation Layers\Test\images\t1.png" />
+    <Content Include="Presentation Layers\Test\images\t2.png" />
+    <Content Include="Presentation Layers\Test\images\t3.png" />
+    <Content Include="Presentation Layers\Test\images\t4.png" />
+    <Content Include="Presentation Layers\Test\images\t5.png" />
+    <Content Include="Presentation Layers\Test\images\t6.png" />
+    <Content Include="Presentation Layers\Test\images\t7.png" />
+    <Content Include="Presentation Layers\Test\images\tb1.jpg" />
+    <Content Include="Presentation Layers\Test\images\tb2.jpg" />
+    <Content Include="Presentation Layers\Test\images\tb3.jpg" />
+    <Content Include="Presentation Layers\Test\images\tb4.jpg" />
+    <Content Include="Presentation Layers\Test\images\tb5.jpg" />
+    <Content Include="Presentation Layers\Test\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Presentation Layers\Test\js\easyResponsiveTabs.js" />
+    <Content Include="Presentation Layers\Test\js\imagezoom.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.countdown.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.flexisel.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.flexslider.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.magnific-popup.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.min.js" />
+    <Content Include="Presentation Layers\Test\js\jquery.wmuSlider.js" />
+    <Content Include="Presentation Layers\Test\js\minicart.js" />
+    <Content Include="Presentation Layers\Test\js\script.js" />
+    <Content Include="Presentation Layers\Test\test.aspx" />
+    <Content Include="Presentation Layers\User\ChangePassword.ascx" />
+    <Content Include="Presentation Layers\User\UserMasterPage\ChangePassword.aspx" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\bootstrap.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\fasthover.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\flexslider.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\font-awesome.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\jquery.countdown.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\popuo-box.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\css\style.css" />
+    <Content Include="Presentation Layers\User\UserMasterPage\fonts\fontawesome-webfont.svg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\1.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\10.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\11.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\12.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\13.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\14.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\15.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\16.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\17.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\18.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\19.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\2.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\20.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\21.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\22.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\23.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\24.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\25.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\26.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\27.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\28.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\29.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\3.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\30.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\31.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\32.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\33.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\34.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\35.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\36.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\37.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\38.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\39.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\4.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\40.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\41.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\44.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\45.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\46.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\47.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\48.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\49.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\5.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\50.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\51.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\52.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\6.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\7.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\8.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\9.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\a.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\arrow.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\b.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\b1.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\bg1.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\bg2.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\bg3.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\c.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\check.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\close.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\img-sp.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\left-arrow.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p1.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p10.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p11.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p12.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p13.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p2.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p3.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p4.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p5.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p6.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\P7.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p8.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\p9.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\right-arrow.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\star-.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\star.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t1.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t2.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t3.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t4.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t5.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t6.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\t7.png" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\tb1.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\tb2.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\tb3.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\tb4.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\images\tb5.jpg" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\bootstrap-3.1.1.min.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\easyResponsiveTabs.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\imagezoom.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.countdown.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.flexisel.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.flexslider.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.magnific-popup.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.min.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\jquery.wmuSlider.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\minicart.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\js\script.js" />
+    <Content Include="Presentation Layers\User\UserMasterPage\UserProfile.aspx" />
+    <Content Include="Presentation Layers\User\usrProfile.ascx" />
+    <Content Include="User Controls\AboutUs.ascx" />
+    <Content Include="User Controls\ContactUs.ascx" />
+    <Content Include="User Controls\css\bootstrap.css" />
+    <Content Include="User Controls\css\fasthover.css" />
+    <Content Include="User Controls\css\flexslider.css" />
+    <Content Include="User Controls\css\font-awesome.css" />
+    <Content Include="User Controls\css\jquery.countdown.css" />
+    <Content Include="User Controls\css\popuo-box.css" />
+    <Content Include="User Controls\css\style.css" />
+    <Content Include="User Controls\fonts\fontawesome-webfont.svg" />
+    <Content Include="User Controls\GetRecentProducts.ascx" />
+    <Content Include="User Controls\History.ascx" />
+    <Content Include="User Controls\images\1.jpg" />
+    <Content Include="User Controls\images\10.jpg" />
+    <Content Include="User Controls\images\11.jpg" />
+    <Content Include="User Controls\images\12.jpg" />
+    <Content Include="User Controls\images\13.jpg" />
+    <Content Include="User Controls\images\14.jpg" />
+    <Content Include="User Controls\images\15.jpg" />
+    <Content Include="User Controls\images\16.jpg" />
+    <Content Include="User Controls\images\17.jpg" />
+    <Content Include="User Controls\images\18.jpg" />
+    <Content Include="User Controls\images\19.jpg" />
+    <Content Include="User Controls\images\2.jpg" />
+    <Content Include="User Controls\images\20.jpg" />
+    <Content Include="User Controls\images\21.jpg" />
+    <Content Include="User Controls\images\22.jpg" />
+    <Content Include="User Controls\images\23.jpg" />
+    <Content Include="User Controls\images\24.jpg" />
+    <Content Include="User Controls\images\25.jpg" />
+    <Content Include="User Controls\images\26.jpg" />
+    <Content Include="User Controls\images\27.jpg" />
+    <Content Include="User Controls\images\28.jpg" />
+    <Content Include="User Controls\images\29.jpg" />
+    <Content Include="User Controls\images\3.jpg" />
+    <Content Include="User Controls\images\30.jpg" />
+    <Content Include="User Controls\images\31.jpg" />
+    <Content Include="User Controls\images\32.jpg" />
+    <Content Include="User Controls\images\33.jpg" />
+    <Content Include="User Controls\images\34.jpg" />
+    <Content Include="User Controls\images\35.jpg" />
+    <Content Include="User Controls\images\36.jpg" />
+    <Content Include="User Controls\images\37.jpg" />
+    <Content Include="User Controls\images\38.jpg" />
+    <Content Include="User Controls\images\39.jpg" />
+    <Content Include="User Controls\images\4.jpg" />
+    <Content Include="User Controls\images\40.jpg" />
+    <Content Include="User Controls\images\41.jpg" />
+    <Content Include="User Controls\images\44.jpg" />
+    <Content Include="User Controls\images\45.jpg" />
+    <Content Include="User Controls\images\46.jpg" />
+    <Content Include="User Controls\images\47.jpg" />
+    <Content Include="User Controls\images\48.jpg" />
+    <Content Include="User Controls\images\49.jpg" />
+    <Content Include="User Controls\images\5.jpg" />
+    <Content Include="User Controls\images\50.jpg" />
+    <Content Include="User Controls\images\51.jpg" />
+    <Content Include="User Controls\images\52.jpg" />
+    <Content Include="User Controls\images\6.jpg" />
+    <Content Include="User Controls\images\7.jpg" />
+    <Content Include="User Controls\images\8.jpg" />
+    <Content Include="User Controls\images\9.jpg" />
+    <Content Include="User Controls\images\a.jpg" />
+    <Content Include="User Controls\images\arrow.png" />
+    <Content Include="User Controls\images\b.jpg" />
+    <Content Include="User Controls\images\b1.jpg" />
+    <Content Include="User Controls\images\bg1.jpg" />
+    <Content Include="User Controls\images\bg2.jpg" />
+    <Content Include="User Controls\images\bg3.jpg" />
+    <Content Include="User Controls\images\c.jpg" />
+    <Content Include="User Controls\images\check.png" />
+    <Content Include="User Controls\images\close.png" />
+    <Content Include="User Controls\images\img-sp.png" />
+    <Content Include="User Controls\images\left-arrow.png" />
+    <Content Include="User Controls\images\p1.jpg" />
+    <Content Include="User Controls\images\p10.jpg" />
+    <Content Include="User Controls\images\p11.jpg" />
+    <Content Include="User Controls\images\p12.jpg" />
+    <Content Include="User Controls\images\p13.jpg" />
+    <Content Include="User Controls\images\p2.jpg" />
+    <Content Include="User Controls\images\p3.jpg" />
+    <Content Include="User Controls\images\p4.jpg" />
+    <Content Include="User Controls\images\p5.jpg" />
+    <Content Include="User Controls\images\p6.jpg" />
+    <Content Include="User Controls\images\P7.jpg" />
+    <Content Include="User Controls\images\p8.jpg" />
+    <Content Include="User Controls\images\p9.jpg" />
+    <Content Include="User Controls\images\right-arrow.png" />
+    <Content Include="User Controls\images\star-.png" />
+    <Content Include="User Controls\images\star.png" />
+    <Content Include="User Controls\images\t1.png" />
+    <Content Include="User Controls\images\t2.png" />
+    <Content Include="User Controls\images\t3.png" />
+    <Content Include="User Controls\images\t4.png" />
+    <Content Include="User Controls\images\t5.png" />
+    <Content Include="User Controls\images\t6.png" />
+    <Content Include="User Controls\images\t7.png" />
+    <Content Include="User Controls\images\tb1.jpg" />
+    <Content Include="User Controls\images\tb2.jpg" />
+    <Content Include="User Controls\images\tb3.jpg" />
+    <Content Include="User Controls\images\tb4.jpg" />
+    <Content Include="User Controls\images\tb5.jpg" />
+    <Content Include="User Controls\js\bootstrap-3.1.1.min.js" />
+    <Content Include="User Controls\js\easyResponsiveTabs.js" />
+    <Content Include="User Controls\js\imagezoom.js" />
+    <Content Include="User Controls\js\jquery.countdown.js" />
+    <Content Include="User Controls\js\jquery.flexisel.js" />
+    <Content Include="User Controls\js\jquery.flexslider.js" />
+    <Content Include="User Controls\js\jquery.magnific-popup.js" />
+    <Content Include="User Controls\js\jquery.min.js" />
+    <Content Include="User Controls\js\jquery.wmuSlider.js" />
+    <Content Include="User Controls\js\minicart.js" />
+    <Content Include="User Controls\js\script.js" />
+    <Content Include="User Controls\RegisterationLogin.ascx" />
+    <Content Include="User Controls\StorePolicies.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\CategoryBL.cs" />
+    <Compile Include="App_Code\Class1.cs" />
+    <Compile Include="App_Code\DBManager.cs" />
+    <Compile Include="App_Code\OrderBL.cs" />
+    <Compile Include="App_Code\OrderItemBL.cs" />
+    <Compile Include="App_Code\ProductBL.cs" />
+    <Compile Include="App_Code\UserBL.cs" />
+    <Compile Include="Master Pages\AnonymousMaster.Master.cs">
+      <DependentUpon>AnonymousMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\AnonymousMaster.Master.designer.cs">
+      <DependentUpon>AnonymousMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master Pages\UserMaster.Master.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master Pages\UserMaster.Master.designer.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Feedback.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderItem.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\AdminHomePage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\AdminHomePage.aspx.designer.cs">
+      <DependentUpon>AdminHomePage.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\ApprovedOrders.aspx.cs">
+      <DependentUpon>ApprovedOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\ApprovedOrders.aspx.designer.cs">
+      <DependentUpon>ApprovedOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\NewProduct.aspx.cs">
+      <DependentUpon>NewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\NewProduct.aspx.designer.cs">
+      <DependentUpon>NewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\PendedOrders.aspx.cs">
+      <DependentUpon>PendedOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\PendedOrders.aspx.designer.cs">
+      <DependentUpon>PendedOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\PendedUsers.aspx.cs">
+      <DependentUpon>PendedUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\PendedUsers.aspx.designer.cs">
+      <DependentUpon>PendedUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\RegisteredUsers.aspx.cs">
+      <DependentUpon>RegisteredUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\RegisteredUsers.aspx.designer.cs">
+      <DependentUpon>RegisteredUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\SearchResult.aspx.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Admin\AdminMasterPage\SearchResult.aspx.designer.cs">
+      <DependentUpon>SearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Anonymous\AnonymouseHome.aspx.cs">
+      <DependentUpon>AnonymouseHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Anonymous\AnonymouseHome.aspx.designer.cs">
+      <DependentUpon>AnonymouseHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\Test\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\Test\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\User\ChangePassword.ascx.cs">
+      <DependentUpon>ChangePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\User\ChangePassword.ascx.designer.cs">
+      <DependentUpon>ChangePassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\User\UserMasterPage\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\User\UserMasterPage\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\User\UserMasterPage\UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\User\UserMasterPage\UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layers\User\usrProfile.ascx.cs">
+      <DependentUpon>usrProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation Layers\User\usrProfile.ascx.designer.cs">
+      <DependentUpon>usrProfile.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Controls\AboutUs.ascx.cs">
+      <DependentUpon>AboutUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\AboutUs.ascx.designer.cs">
+      <DependentUpon>AboutUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\ContactUs.ascx.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\ContactUs.ascx.designer.cs">
+      <DependentUpon>ContactUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\GetRecentProducts.ascx.cs">
+      <DependentUpon>GetRecentProducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\GetRecentProducts.ascx.designer.cs">
+      <DependentUpon>GetRecentProducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\History.ascx.cs">
+      <DependentUpon>History.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\History.ascx.designer.cs">
+      <DependentUpon>History.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\RegisterationLogin.ascx.cs">
+      <DependentUpon>RegisterationLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\RegisterationLogin.ascx.designer.cs">
+      <DependentUpon>RegisterationLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\StorePolicies.ascx.cs">
+      <DependentUpon>StorePolicies.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Controls\StorePolicies.ascx.designer.cs">
+      <DependentUpon>StorePolicies.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
